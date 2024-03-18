@@ -2,14 +2,13 @@
 /* Your CSS Code here. */
 .holder {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	font-weight: bold;
 }
 
 .box1{
-	order: 2;
 	width: 100px;
 	height: 100px;
 	border: 1px solid red;
@@ -18,7 +17,6 @@
 }
 
 .box2{
-	order: 3;
 	width: 100px;
 	height: 100px;
 	border: 1px solid blue;
@@ -26,7 +24,6 @@
 }
 
 .box3{
-	order: 1;
 	width: 100px;
 	height: 100px;
 	border: 1px solid green;
